@@ -3,21 +3,32 @@
 *::before {
     margin: 0;
     padding: 0;
-    box-sizing: inherit;
+    box-sizing: border-box;
 }
 
 html {
     font-size: 62.5%;
 }
 
-.App {
+body {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    padding: 25px;
+    background-color: #3f26ab;
+    text-align: center;
+}
+
+/* .App {
     margin: 1rem;
-    /* background-color: #ecf0f1; */
+    background-color: #ecf0f1;
     font-family: sans-serif;
     font-size: 16px;
     line-height: 1.7rem;
     padding: 3rem;
-}
+} */
 
 h1 {
     text-align: center;

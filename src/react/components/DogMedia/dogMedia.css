@@ -1,0 +1,6 @@
+.dog-media {
+    width: 100%;
+    height: calc(100% - 98px);
+    object-fit: cover;
+    border: 1px solid #eee;
+}

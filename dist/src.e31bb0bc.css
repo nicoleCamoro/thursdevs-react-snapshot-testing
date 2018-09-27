@@ -3,24 +3,86 @@
 *::before {
     margin: 0;
     padding: 0;
-    box-sizing: inherit;
+    box-sizing: border-box;
 }
 
 html {
     font-size: 62.5%;
 }
 
-.App {
+body {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    padding: 25px;
+    background-color: #3f26ab;
+    text-align: center;
+}
+
+/* .App {
     margin: 1rem;
-    /* background-color: #ecf0f1; */
+    background-color: #ecf0f1;
     font-family: sans-serif;
     font-size: 16px;
     line-height: 1.7rem;
     padding: 3rem;
-}
+} */
 
 h1 {
     text-align: center;
     margin-top: 5rem;
     font-size: 6rem;
+}
+.dog-btn {
+    flex-shrink: 0;
+    font-family: Arial, sans-serif;
+    font-weight: bolder;
+    font-size: 20px;
+    border: 2px solid #27272d;
+    border-radius: 10px;
+    margin-top: calc(15px + 2vh);
+    padding: 15px 20px;
+    background: none;
+    color: #131316;
+    background-color: #d1d4eb;
+    box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16), 0 3px 6px rgba(0, 0, 0, 0.23);
+    outline: none;
+    cursor: pointer;
+    transition: all 200ms;
+}
+
+.dog-btn:active {
+    transform: translateY(2px);
+    box-shadow: 0 1px 2px rgba(0, 0, 0, 0.16), 0 1px 2px rgba(0, 0, 0, 0.23);
+}
+.dog-caption {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    font-family: 'Fira Code', cursive;
+    font-size: 32px;
+    line-height: 1.5;
+    padding: 25px 0;
+    background-color: #fefefe;
+}
+.dog-media {
+    width: 100%;
+    height: calc(100% - 98px);
+    object-fit: cover;
+    border: 1px solid #eee;
+}
+.dog-figure {
+    position: relative;
+    max-width: 100%;
+    width: calc(200px + 10vw + 10vh);
+    height: calc(250px + 10vw + 10vh);
+    /* border-radius: calc(10px + 1vw + 1vh); */
+    border: calc(2px + 0.8vw + 0.8vh) solid #fefefe;
+    border-bottom: none;
+    box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16), 0 3px 6px rgba(0, 0, 0, 0.23);
+    background-color: #fefefe;
+    margin: 0 auto;
+    overflow: hidden;
 }

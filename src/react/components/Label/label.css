@@ -1,0 +1,10 @@
+.dog-caption {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    font-family: 'Fira Code', cursive;
+    font-size: 32px;
+    line-height: 1.5;
+    padding: 25px 0;
+    background-color: #fefefe;
+}

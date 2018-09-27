@@ -1,0 +1,13 @@
+.dog-figure {
+    position: relative;
+    max-width: 100%;
+    width: calc(200px + 10vw + 10vh);
+    height: calc(250px + 10vw + 10vh);
+    /* border-radius: calc(10px + 1vw + 1vh); */
+    border: calc(2px + 0.8vw + 0.8vh) solid #fefefe;
+    border-bottom: none;
+    box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16), 0 3px 6px rgba(0, 0, 0, 0.23);
+    background-color: #fefefe;
+    margin: 0 auto;
+    overflow: hidden;
+}

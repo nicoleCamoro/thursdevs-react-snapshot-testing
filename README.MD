@@ -1,7 +1,1 @@
-### TODO:
-
--   Linting
--   Testing
--   Readme boilerplate
--   package.json breakdown
--   [CI](https://travis-ci.org/)
+https://codepen.io/GeorgePark/pen/XYWzGM?editors=1000
