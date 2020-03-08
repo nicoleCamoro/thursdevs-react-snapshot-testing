@@ -35,6 +35,7 @@ h1 {
     margin-top: 5rem;
     font-size: 6rem;
 }
+
 .dog-btn {
     flex-shrink: 0;
     font-family: Arial, sans-serif;
@@ -57,6 +58,7 @@ h1 {
     transform: translateY(2px);
     box-shadow: 0 1px 2px rgba(0, 0, 0, 0.16), 0 1px 2px rgba(0, 0, 0, 0.23);
 }
+
 .dog-caption {
     position: absolute;
     bottom: 0;
@@ -67,12 +69,14 @@ h1 {
     padding: 25px 0;
     background-color: #fefefe;
 }
+
 .dog-media {
     width: 100%;
     height: calc(100% - 98px);
     object-fit: cover;
     border: 1px solid #eee;
 }
+
 .dog-figure {
     position: relative;
     max-width: 100%;
@@ -86,3 +90,6 @@ h1 {
     margin: 0 auto;
     overflow: hidden;
 }
+
+
+/*# sourceMappingURL=/src.e31bb0bc.css.map */

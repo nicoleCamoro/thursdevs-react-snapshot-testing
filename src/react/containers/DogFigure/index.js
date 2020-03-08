@@ -8,7 +8,7 @@ import './dogFigure.css';
 class DogFigure extends Component {
     render() {
         return (
-            <figure class="dog-figure">
+            <figure className="dog-figure">
                 <DogMedia {...this.props} />
                 <Label caption={this.props.caption} />;
             </figure>
